@@ -6,9 +6,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Online library</title>
     <style>
-        #spinnerId > img{
-            background: transparent;
-        }
+      #spinnerId > img {
+        background: transparent;
+      }
     </style>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css"
@@ -18,8 +18,8 @@
     />
   </head>
   <body>
-    <h1 class="text-center text-danger">Welcome To Online Open Library!</h1>
-    <div class="input-group mb-3 w-50 mx-auto">
+    <h1 class="text-center text-danger mt-5 mb-3">Welcome To Online Open Library!</h1>
+    <div class="input-group mb-3 w-50 mx-auto p-5">
       <input
         id="search-field"
         type="text"
@@ -32,19 +32,12 @@
         onclick="searchBook()"
         class="btn btn-outline-secondary ms-2"
         type="button"
-        id="button-search"
-      >
-        Search
-      </button>
+        id="button-search">Search </button>
     </div>
-
     <section class="container">
-      
       <!-- total book search result  -->
 
-      <h4 class="text-center text-primary">
-        Total Books -<span id="total-books"></span>
-      </h4>
+      <h4 id="total-books" class="text-center text-primary"></h4>
 
       <!-- loading spinner  -->
 

@@ -50,7 +50,7 @@ const displaySearchResult = (docs) => {
     searchResult.appendChild(div);
     
     const divCount = document.getElementsByClassName("col").length;
-    document.getElementById('total-books').innerText = divCount;
+    document.getElementById('total-books').innerText =`Total Books : ${divCount}`;
    
     toggleSpinner(false);
   });
